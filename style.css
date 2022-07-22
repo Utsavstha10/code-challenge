@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+}
+
+.container .header{
+    display: flex;
+    position: relative;
+}
+
+.container .header .logo{
+    position: absolute;
+    top: 44px;
+    left: 55px;
+}
+
+.container .header .links{
+    display: flex;
+    font-size: 32px;
+    gap: 60px;
+    position: absolute;
+    top: 44px;
+    left: 260px;
+}
+
+.container .header .links a:hover{
+    font-size: 40px;
+}
+/**.container .header .arrow{
+    position: absolute;
+    top: 55px;
+    left:378px ;
+}
+.container .header .oop{
+    position: absolute;
+    top: 55px;
+    left:564px ;
+}**/
+
+.container .header .links a{
+    text-decoration: none;
+    color: grey;
+    transition: 500ms all ease;
+}
+
+.container .header .login{
+    font-size: 32px;
+    position: absolute;
+    top: 44px;
+    right:310px ;
+}
+
+.container .header .login a{
+    text-decoration: none;
+    color: gray;
+}
+
+.container .header .login a:hover{
+    color: black;
+}
+
+.container .header .register{
+    position: absolute;
+    top: 35px;
+    right:120px ;
+}
+
+.container .header .register a button{
+    font-size: 22px;
+    background-color: transparent;
+    width: 155px;
+    height: 60px;
+    border-radius: 1rem;
+    transition: 500ms all ease;
+}
+
+.container .header .register a button:hover{
+    font-size: 22px;
+    cursor: pointer;;
+    background-color: black;
+    color: white;
+    width: 155px;
+    height: 60px;
+    border-radius: 1rem;
+}
+.cardscontainer{
+    position: relative;
+}
+
+.cardscontainer .backimg img{
+    position: absolute;
+    top: 180px;
+    right: 250px;
+    transition: 1s all ease;
+}
+
+.cardscontainer .backimg img:hover{
+    width: 700px;
+    height: 920px;
+    box-shadow: 18px 14px 39px -6px rgba(0,0,0,0.64);
+-webkit-box-shadow: 18px 14px 39px -6px rgba(0,0,0,0.64);
+-moz-box-shadow: 18px 14px 39px -6px rgba(0,0,0,0.64);
+}
+
+.cardscontainer .txt h1{
+    position: absolute;
+    top: 300px;
+    left: 240px;
+    font-size: 70px;
+}
+
+.cardscontainer .txt h2{
+    position: absolute;
+    top: 380px;
+    left: 240px;
+    font-size: 70px;
+}
+
+.cardscontainer .txt p{
+    color: grey;
+    position: absolute;
+    top: 550px;
+    left: 240px;
+    font-size: 30px;
+}
+
+.cardscontainer .learn_btn a button{
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    width: 255px;
+    height: 75px;
+    border-radius: 1rem;
+    transition: 500ms all ease;
+}
+
+.cardscontainer .learn_btn a{
+    width: 231px;
+    color: grey;
+    position: absolute;
+    top: 750px;
+    left: 240px;
+    font-size: 30px;
+}
+
+.cardscontainer .learn_btn a button:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+.cardscontainer .databiz img{
+    position: absolute;
+    top: 1000px;
+    left: 240px;
+    transition: 500ms all ease;
+}
+
+.cardscontainer .databiz img:hover{
+    width: 200px;
+}
+
+.cardscontainer .audiophile img{
+    position: absolute;
+    top: 990px;
+    left: 520px;
+    transition: 500ms all ease;
+}
+
+.cardscontainer .audiophile img:hover{
+    width: 160px;
+}
+
+.cardscontainer .meet img{
+    position: absolute;
+    top: 1000px;
+    left: 750px;
+    transition: 500ms all ease;
+}
+
+.cardscontainer .meet img:hover{
+    width: 200px;
+}
+
+.cardscontainer .maker img{
+    position: absolute;
+    top: 1000px;
+    left: 1000px;
+    transition: 500ms all ease;
+}
+
+.cardscontainer .maker img:hover{
+    width: 200px;
+}
